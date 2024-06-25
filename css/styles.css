@@ -2,23 +2,99 @@
 body{
     max-width: 550px;
     margin: 0 auto;
-    font-family: 'Libre Franklin', sans-serif;
+    
 }
+
+
+@font-face{
+    font-family: 'HLight';
+    src: url('./fonts/TiemposHeadline-Light.woff2') format('woff');
+}
+
+@font-face{
+  font-family: 'HRegular';
+  src: url('./fonts/TiemposHeadline-Regular.woff2') format('woff');
+}
+
+
+@font-face{
+  font-family: 'HMedium';
+  src: url('./fonts/TiemposHeadline-Medium.woff2') format('woff');
+}
+
+
+@font-face{
+  font-family: 'HSemibold';
+  src: url('./fonts/TiemposHeadline-Semibold.woff2') format('woff');
+}
+
+
+@font-face{
+  font-family: 'HBold';
+  src: url('./fonts/TiemposHeadline-Bold.woff2') format('woff');
+}
+
+
+@font-face{
+  font-family: 'HBlack';
+  src: url('./fonts/TiemposHeadline-Black.woff2') format('woff');
+}
+
+
+
+
+
+
+/* TIMES TEXT */
+
+@font-face{
+  font-family: 'TRegular';
+  src: url('./fonts/TiemposText-Regular.woff2') format('woff');
+}
+
+
+@font-face{
+  font-family: 'TRegularItalic';
+  src: url('./fonts/TiemposTextApp-RegularItalic.woff') format('woff');
+}
+
+
+@font-face{
+  font-family: 'TMedium';
+  src: url('./fonts/TiemposText-Medium.woff2') format('woff');
+}
+
+
+@font-face{
+  font-family: 'TSemibold';
+  src: url('./fonts/TiemposText-Semibold.woff2') format('woff');
+}
+
+
+@font-face{
+  font-family: 'TBold';
+  src: url('./fonts/TiemposText-Bold.woff2') format('woff');
+}
+
+
+/* font-family: 'TRegular', serif; */
 
 #container{
     padding: 0 3%;
 }
 
 #title{
-  font-family: 'Oswald', sans-serif;
+  
   text-align: center;
   text-transform: uppercase;
 }
 
 #title h2{
+    font-family: 'HRegular', sans-serif;
+    font-size: 1.2rem;
     margin-top: 12px;
     margin-bottom:0;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 #sol{
@@ -48,6 +124,7 @@ body{
 .ley p{
     margin: 0.5rem auto;
     font-size:0.8rem;
+    font-family: 'HMedium';
 }
 
 
@@ -117,16 +194,19 @@ body{
 }
 
 p.name{
+    font-family: 'HLight', serif;
     text-transform: uppercase;
     font-size: 0.8rem;
     margin: 0.5rem auto;
     font-weight: bold;
+   
 }
 
 p.pos{
     padding: 0 10%;
     font-size: 0.8rem;
     margin-bottom:0;
+    font-family: 'HLight', serif;
 }
 
 .part{
