@@ -117,13 +117,15 @@ body{
 }
 
 p.name{
+    text-transform: uppercase;
     font-size: 0.8rem;
     margin: 0.5rem auto;
+    font-weight: bold;
 }
 
 p.pos{
     padding: 0 10%;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     margin-bottom:0;
 }
 
