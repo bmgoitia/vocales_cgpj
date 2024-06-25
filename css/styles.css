@@ -203,6 +203,7 @@ p.name{
 }
 
 p.pos{
+    margin-top: 0;
     padding: 0 10%;
     font-size: 0.8rem;
     margin-bottom:0;
